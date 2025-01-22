@@ -1,26 +1,23 @@
-/* Container to hold the layout */
 .container {
     display: flex;
     min-height: 100%;
 }
 
-/* Wide gutters on either side */
 .gutter {
     flex-basis: 10%;
     background-color: whitesmoke;
 }
 
-/* Main content area */
 .main-content {
     display: flex;
     flex-direction: column;
     padding: 20px;
     background-color: white;
-    //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex-basis: 90%;
     justify-content: center;
     align-items: center;
     border: 1px solid #ddd;
+    border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     margin-bottom: 20px;
@@ -34,25 +31,31 @@ section {
     flex: 1;
 }
 
-/* Example header styling */
-header h1 {
-    font-size: 2rem;
-    color: #007acc;
-}
-
 img {
     max-width: 50%;
     height: auto;
     display: block;
 }
 
-p {
-    //text-align: center;
+div {
+    text-align: justify;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     font-size: 0.9rem;
     color: #666;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 12px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
