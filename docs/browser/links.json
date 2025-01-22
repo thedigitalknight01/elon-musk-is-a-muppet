@@ -1,0 +1,6 @@
+[
+    { "title": "Angular Official Docs", "url": "https://angular.io/docs" },
+    { "title": "TypeScript Docs", "url": "https://www.typescriptlang.org/docs/" },
+    { "title": "MDN Web Docs", "url": "https://developer.mozilla.org/" },
+    { "title": "W3Schools Angular Tutorial", "url": "https://www.w3schools.com/angular/" }
+]
