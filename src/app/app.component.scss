@@ -12,8 +12,6 @@
 
 /* Main content area */
 .main-content {
-    flex: 3;
-    /* Takes up 3x the space of the gutters */
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -22,6 +20,10 @@
     flex-basis: 90%;
     justify-content: center;
     align-items: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section {
