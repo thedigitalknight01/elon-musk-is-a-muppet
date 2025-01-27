@@ -1,11 +1,12 @@
 .container {
     display: flex;
     min-height: 100%;
+    background-color: black;
 }
 
 .gutter {
     flex-basis: 10%;
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .main-content {
