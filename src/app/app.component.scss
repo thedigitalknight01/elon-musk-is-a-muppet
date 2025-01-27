@@ -37,11 +37,22 @@ img {
     display: block;
 }
 
+.caption {
+    color: #666;
+    font-style: italic;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 div {
     text-align: justify;
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     font-size: 0.9rem;
     color: #666;
@@ -58,4 +69,60 @@ li {
 
 li:last-child {
     margin-bottom: 0;
+}
+
+.buy-me-coffee {
+    display: inline-flex;
+    align-items: center;
+    background: #ffdd00;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.buy-me-coffee:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.buy-me-coffee::before {
+    content: "☕";
+    font-size: 32px;
+    margin-right: 8px;
+}
+
+.buy-me-coffee::after {
+    content: "😊";
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+.note::after {
+    content: "🙂";
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.knight-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-block-end: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .buy-me-coffee {
+        display: inline-flex;
+        align-items: center;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }
