@@ -76,7 +76,7 @@ li:last-child {
     align-items: center;
     background: #ffdd00;
     color: #333;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 30px;
@@ -94,13 +94,13 @@ li:last-child {
 
 .buy-me-coffee::before {
     content: "☕";
-    font-size: 32px;
+    font-size: 28px;
     margin-right: 8px;
 }
 
 .buy-me-coffee::after {
     content: "😊";
-    font-size: 32px;
+    font-size: 24px;
     margin-left: 8px;
 }
 
