@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path docs --base-href /elon-musk-is-a-muppet/",
-    "postbuild": "mv docs/browser/* docs/ && rm -rf docs/browser",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
