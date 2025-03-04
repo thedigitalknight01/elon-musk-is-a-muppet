@@ -105,12 +105,9 @@ li:last-child {
     margin-left: 8px;
 }
 
-.knight-image {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-block-end: 15px;
+.muppet-image {
+    border-radius: 12px;
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 768px) {
